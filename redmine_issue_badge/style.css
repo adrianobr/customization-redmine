@@ -63,26 +63,22 @@ div.issue_badge_content .metadata {
 #issue_badge .badge {
   display: inline-block;
   min-width: 10px;
-  padding: 2px 3px 3px 3px;
-  /* font-weight: 700; */
+  padding: 5px 5px 5px 7px;
+  font-weight: bold;
+  font-size: 10px;
   color: #f3f5f7;
   line-height: 1;
   vertical-align: middle;
   white-space: nowrap;
   text-align: center;
   background-color: #e7ebef;
-  border-radius: 4px;
+  border-radius: 10px;
   position: relative;
   bottom: 0;
-  /* font-weight: normal; */
-}
-
-#issue_badge .badge.red {
-  background-color: #174d82;
 }
 
 #issue_badge .badge.green {
-  background-color: #4eb97e;
+  background-color: #00B67A;
 }
 
 .arrow_box {
@@ -187,6 +183,7 @@ div.contents_wrapper::-webkit-scrollbar-thumb {
   padding-right: 10px;
   padding-top: 2px;
   padding-bottom: 3px;
+  text-transform: capitalize;
 }
 
 #issue_badge_contents > div.error_message {
@@ -200,6 +197,19 @@ div.contents_wrapper::-webkit-scrollbar-thumb {
   /*padding-left: 20px;*/
   padding-top: 2px;
   padding-bottom: 3px;
+}
+a.icon.icon-add.new-issue {
+    border: inherit;
+    border-radius: inherit;
+    padding: inherit;
+    text-transform: capitalize !important;
+}
+a.icon.icon-add.new-issue:before {
+    content: "\e93e" !important;
+}
+a.icon.icon-add.new-issue:hover {
+    background: inherit !important;
+    border: 1px solid #00b67a !important;
 }
 
 #issue_badge_contents a.users {
