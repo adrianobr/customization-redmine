@@ -80,6 +80,9 @@ div.issue_badge_content .metadata {
 #issue_badge .badge.green {
   background-color: #00B67A;
 }
+#issue_badge .badge.red {
+  background-color: #00B67A;
+}
 
 .arrow_box {
   position: relative;
@@ -198,18 +201,8 @@ div.contents_wrapper::-webkit-scrollbar-thumb {
   padding-top: 2px;
   padding-bottom: 3px;
 }
-a.icon.icon-add.new-issue {
-    border: inherit;
-    border-radius: inherit;
-    padding: 8px 10px !important;
-    text-transform: capitalize !important;
-}
 a.icon.icon-add.new-issue:before {
     content: "\e93e" !important;
-}
-a.icon.icon-add.new-issue:hover {
-    background: inherit !important;
-    border: 1px solid #00b67a !important;
 }
 
 #issue_badge_contents a.users {
