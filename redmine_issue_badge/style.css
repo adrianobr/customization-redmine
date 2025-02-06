@@ -21,13 +21,13 @@ div.checkbox label {
 }
 
 #issue_badge > li > div {
-  min-width: 210px;
-  max-width: 250px;
+  min-width: 285px;
+  max-width: 400px;
   position: absolute;
   display: block;
-  top: 20px;
-  left: 5px;
-  color: black;
+  top: 30px;
+  left: 25px;
+  color: #607D8B;
   background: #ffffff;
   padding: 0px;
   /* font-size: 0.8em; */
@@ -65,21 +65,20 @@ div.issue_badge_content .metadata {
   min-width: 10px;
   padding: 2px 3px 3px 3px;
   /* font-weight: 700; */
-  color: #fff;
+  color: #f3f5f7;
   line-height: 1;
   vertical-align: middle;
   white-space: nowrap;
   text-align: center;
-  background-color: #ee2630;
-  border-radius: 7px;
+  background-color: #e7ebef;
+  border-radius: 4px;
   position: relative;
   bottom: 0;
   /* font-weight: normal; */
 }
 
-
 #issue_badge .badge.red {
-  background-color: #ee2630;
+  background-color: #174d82;
 }
 
 #issue_badge .badge.green {
@@ -126,22 +125,24 @@ div.notifications > div {
 
 div.notifications > div.header {
   font-weight: bold;
-  background: #ffffff;
+  background: #f6f5f5;
   white-space: normal;
 }
 
 div.notifications > div.footer {
-  text-align: left;
-  background: #ffffff;
+  text-align: right;
+  padding-right: 0;
+  background: #f6f5f5;
 }
 
 /*---- Use ticket_go png as icon -----*/
 #issue_badge_contents > div.no-issue {
-  background-image: url("../images/bom-trabalho.jpg");
+  background-image: url("../images/good-job.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 50%;
-  height: 50px;
+  height: 64px;
+  margin: 15px;
   border-bottom: none;
 }
 
@@ -149,6 +150,8 @@ div.notifications > div.footer {
   white-space: normal;
   line-height: 1.2em;
   padding: 4px;
+  /* font-size: 0.6em; */
+  opacity: 0.4;
   float: none;
 }
 
@@ -170,7 +173,7 @@ div.contents_wrapper::-webkit-scrollbar-thumb {
 }
 
 #issue_badge_contents > div.contents_wrapper {
-  width: 220px;
+  width: 320px;
   overflow-y: auto;
   max-height: 260px;
   padding-bottom: 10px;
@@ -181,9 +184,7 @@ div.contents_wrapper::-webkit-scrollbar-thumb {
 }
 
 #issue_badge_contents > div.footer > a {
-  background-position: 0% 50%;
-  background-repeat: no-repeat;
-  padding-left: 20px;
+  padding-right: 10px;
   padding-top: 2px;
   padding-bottom: 3px;
 }
@@ -196,17 +197,17 @@ div.contents_wrapper::-webkit-scrollbar-thumb {
 #issue_badge_contents a {
   background-position: 0% 40%;
   background-repeat: no-repeat;
-  padding-left: 20px;
+  /*padding-left: 20px;*/
   padding-top: 2px;
   padding-bottom: 3px;
 }
 
 #issue_badge_contents a.users {
-  background-image: url("../../../images/user.png");
+  /*background-image: url("../../../images/user.png");*/
 }
 
 #issue_badge_contents a.groups {
-  background-image: url("../../../images/group.png");
+  /*background-image: url("../../../images/group.png");*/
 }
 
 @media (max-width: 899px) {
