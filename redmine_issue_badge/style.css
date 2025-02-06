@@ -201,7 +201,7 @@ div.contents_wrapper::-webkit-scrollbar-thumb {
 a.icon.icon-add.new-issue {
     border: inherit;
     border-radius: inherit;
-    padding: inherit;
+    padding: 8px 10px !important;
     text-transform: capitalize !important;
 }
 a.icon.icon-add.new-issue:before {
